@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+
+body {
+    background-color:#E3E2DF; 
+    color:rgb(2,1,0);
+    position:relative;
+}
+
+header {
+    background-color:#D97000; 
+    color:white; 
+
+}
+
+footer {
+    background-color:#D97000; 
+    color:white; 
+    padding-top:5px;
+}
+
+nav {
+    list-style: none;
+    font-size: 13px;
+    background-color:rgb(2,1,0,0.5);
+    color: white;
+}
+
+a:link {
+    color:#D97000; 
+}
+
+a:visited {
+	text-decoration:underline;
+    color:#D97000; 
+}
+
+a:hover {
+	text-decoration:underline;
+    color:blue; 
+}
+
+.display-4 {
+    padding-top:340px; 
+    color:white; 
+    letter-spacing:7px;
+    padding-left:30px
+}
+
+.lead {;
+    padding-left:50px;
+}
+
+.headtext {
+    padding-left:50px;
+    padding-right:50px; 
+}
+
+
+.carousel-caption {
+    color:#fff; 
+    font-size:13px; 
+    font-weight:bold; 
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+    background-color:rgb(2,1,0,0.3);
+}
+
+.carousel-control-prev {
+    bottom:150px;
+    padding-right:100px; 
+}
+
+.carousel-control-next {
+    bottom:150px; 
+    padding-left:100px; 
+}
+
+
+h1 {
+    font-family: 'Anton', sans-serif;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    padding-top:18px; 
+    padding-bottom:5px;
+    letter-spacing:1px;
+}
+
+h4 {
+     font-family: 'Anton', sans-serif;
+}
+
+h5 {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+h6 {
+    font-family: 'Anton', sans-serif;
+    font-size:13px; 
+    padding-top:3px; 
+}
+
+p {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.top-left {
+    position: absolute;
+    top: 1px;
+    left: 16px; 
+    color: white; 
+}
+
+.scrollspy-example {
+    height:1000px;
+    overflow-y: scroll;
+}
+
+.video {
+    margin-left:160px; 
+}
+
+
+.card {
+    margin-left:150px;
+    background-color:#E3E2DF;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    background-color:#E3E2DF;
+}
+
+.btn-primary {
+    color:#fff;
+    background-color:#D97000;
+    border-color:#D97000;
+    margin-left:45px; 
+}
+
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color:#e07a0d; /*light orange*/
+    border-color:#D97000;
+}
+
+.accordion-item {
+    margin-bottom: -1px;
+    background-color:#d9d8d4;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.accordion-button {
+    background-color:#d9d8d4;
+    color:#D97000;     
+}
